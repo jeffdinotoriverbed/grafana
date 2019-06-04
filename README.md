@@ -1,4 +1,5 @@
 # [Grafana](https://grafana.com) [![Circle CI](https://circleci.com/gh/grafana/grafana.svg?style=svg)](https://circleci.com/gh/grafana/grafana) [![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana) [![codecov](https://codecov.io/gh/grafana/grafana/branch/master/graph/badge.svg)](https://codecov.io/gh/grafana/grafana)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fgrafana.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fgrafana?ref=badge_shield)
 
 [Website](https://grafana.com) |
 [Twitter](https://twitter.com/grafana) |
@@ -197,3 +198,6 @@ plugin development.
 ## License
 
 Grafana is distributed under [Apache 2.0 License](https://github.com/grafana/grafana/blob/master/LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fgrafana.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fgrafana?ref=badge_large)
