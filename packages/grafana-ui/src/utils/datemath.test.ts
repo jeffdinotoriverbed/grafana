@@ -54,6 +54,13 @@ describe('DateMath', () => {
     expect(startOfDay).toBe(expected.getTime());
   });
 
+  it('should strip whitespace from string', () => {
+    const whitespacedStr = `${anchor} - 6h`;
+    const strippedStr = whitespacedStr.replace(/\s/g, '');
+
+    expect(dateMath.parse(whitespacedStr)!.format(format)).toBe(dateMath.parse(strippedStr)!.format(format));
+  });
+
   describe('subtraction', () => {
     let now: DateTime;
     let anchored: DateTime;
